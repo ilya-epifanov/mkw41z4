@@ -6,16 +6,16 @@ keywords = ["no-std", "arm", "cortex-m", "stm32"]
 license = "MIT"
 name = "mkw41z4"
 repository = "https://github.com/ilya-epifanov/mkw41z4"
-version = "0.1.0"
+version = "0.2.0"
 
 [dependencies]
-cortex-m = "0.3.0"
-bare-metal = "0.1.0"
+cortex-m = "0.3.1"
+bare-metal = "0.1.1"
 vcell = "0.1.0"
 
 [dependencies.cortex-m-rt]
 optional = true
-version = "0.3.3"
+version = "0.3.5"
 
 [features]
 rt = ["cortex-m-rt"]
